@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/rohitPatel/PageObjectModelFramework/src/test/java/com/demo/nopcommerce/test">
+        <classes>
+            <class name="com.demo.nopcommerce.test.RegisterPageTest">
+<!--                <methods>-->
+<!--                    <include name="runRegistration"/>-->
+<!--                    <include name="verifyRegisterPageTitle"/>-->
+<!--                </methods>-->
+            </class>
+            <class name="com.demo.nopcommerce.test.LoginPageTest">
+<!--                <methods>-->
+<!--                    <include name="runLogin"/>-->
+<!--                    <include name="verifyLogInPageTitle"/>-->
+<!--                </methods>-->
+            </class>
+
+        </classes>
+    </test>
+</suite>
